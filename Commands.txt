@@ -1,0 +1,6 @@
+﻿for automatic dbcontext need entityframework.Tools and .sqlSrver installed
+Scaffold-DbContext 'Data Source=ZBOOK-G2\SQLEXPRESS;Initial Catalog=BooksAspWepApiAngular;User Id=sa;Password=ISB@2008;MultipleActiveResultSets=true;' Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+"ConnectionStrings": {
+    "BookDb": "Server=.;Database=BooksAspWepApiAngular;user id =sa;password=ISB@2008;Trusted_Connection=false;MultipleActiveResultSets=true;"
+  }
